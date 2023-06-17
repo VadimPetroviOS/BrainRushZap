@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="BrainRushZap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main BG" translatesAutoresizingMaskIntoConstraints="NO" id="7NN-cQ-Xkg">
+                                <rect key="frame" x="-266" y="0.0" width="1290" height="2796"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tier 3 wheel" translatesAutoresizingMaskIntoConstraints="NO" id="w9j-R6-jWE">
+                                <rect key="frame" x="-63" y="106.5" width="1150" height="1153"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tier 2 wheel" translatesAutoresizingMaskIntoConstraints="NO" id="Fxa-DA-tTP">
+                                <rect key="frame" x="79.5" y="250" width="865" height="866"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tier 1 wheel" translatesAutoresizingMaskIntoConstraints="NO" id="XZH-jx-HVB">
+                                <rect key="frame" x="225" y="395.5" width="574" height="575"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loading wheel element" translatesAutoresizingMaskIntoConstraints="NO" id="Vas-00-sRU">
+                                <rect key="frame" x="333" y="504" width="358" height="358"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fxa-DA-tTP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2P8-9P-P2m"/>
+                            <constraint firstItem="XZH-jx-HVB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6Vh-gh-wjR"/>
+                            <constraint firstItem="w9j-R6-jWE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="74s-Hc-kTB"/>
+                            <constraint firstItem="Fxa-DA-tTP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CmA-pz-vYg"/>
+                            <constraint firstItem="w9j-R6-jWE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTy-r3-nzs"/>
+                            <constraint firstItem="w9j-R6-jWE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L4u-Sy-4Zc"/>
+                            <constraint firstItem="XZH-jx-HVB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OMv-GS-tTk"/>
+                            <constraint firstItem="Vas-00-sRU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PF5-8a-VEF"/>
+                            <constraint firstItem="Vas-00-sRU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="axO-x0-avb"/>
+                            <constraint firstItem="w9j-R6-jWE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jT3-cP-mkR"/>
+                            <constraint firstItem="Vas-00-sRU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="poN-nG-3rY"/>
+                            <constraint firstItem="XZH-jx-HVB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="siy-gO-K30"/>
+                            <constraint firstItem="Fxa-DA-tTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tOd-SK-Qbg"/>
+                            <constraint firstItem="XZH-jx-HVB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tYm-Up-ZyY"/>
+                            <constraint firstItem="Vas-00-sRU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xN6-EP-Pdg"/>
+                            <constraint firstItem="Fxa-DA-tTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zd6-0m-1Cm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bigCircleImageView" destination="w9j-R6-jWE" id="eOd-tt-lSj"/>
+                        <outlet property="midleCircleImageView" destination="Fxa-DA-tTP" id="f5M-Xb-LZU"/>
+                        <outlet property="miniCircleImageView" destination="XZH-jx-HVB" id="vCw-Zq-Oie"/>
+                        <outlet property="wheelImageView" destination="Vas-00-sRU" id="yiX-J4-Bfl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.835937499999993" y="-2.1961932650073206"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Loading wheel element" width="358" height="358"/>
+        <image name="Main BG" width="1290" height="2796"/>
+        <image name="Tier 1 wheel" width="574" height="575"/>
+        <image name="Tier 2 wheel" width="865" height="866"/>
+        <image name="Tier 3 wheel" width="1150" height="1153"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
