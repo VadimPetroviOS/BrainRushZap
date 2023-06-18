@@ -1,4 +1,5 @@
 # BrainRushZap
 
 <p float="left">
-  <img src="BrainRushZap/gif/Запись-экрана-2023-06-18-в-15.55.11.gif" width="300" />
+  <img src="https://github.com/VadimPetroviOS/BrainRushZap/blob/main/BrainRushZap/gif/Запись-экрана-2023-06-18-в-15.55.11.gif?raw=true" width="300" /> 
+</p>
